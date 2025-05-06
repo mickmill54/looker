@@ -1,4 +1,4 @@
-<h1><span style="color:#2d7eea">Welcome to the Looker Sample Project!</span></h1>
+<h1><span style="color:#2d7eea">Welcome to the My Looker Sample Project!</span></h1>
 
 This LookML project is a functional example for you to play with and learn from. Going through the examples in this project will help you understand the capabilities of Looker and the power of LookML. However, the Looker sample project is not a complete tutorial. For a more complete training course, check out the [Google Cloud Skills Boost](https://www.cloudskillsboost.google/course_templates/327).
 
