@@ -1,0 +1,26 @@
+{
+  "label": "Cloud Cost Management: Azure",
+  "category_label": "Models",
+  "branding": {
+    "image_uri": "https://fonts.gstatic.com/s/i/googlematerialicons/azure/v2/googblue-48dp/2x/gm_azure_googblue_48dp.png",
+    "tagline": "Connect directly to your billing data in Azure to provide a consolidated reporting view of cloud spend."
+  },
+  "constants": {
+    "AZURE_BILLING_CONNECTION": {
+      "label": "Connection Name",
+      "value_constraint": "connection"
+    },
+    "AZURE_SCHEMA_NAME": {
+      "label": "Azure Billing Export Schema"
+    },
+    "AZURE_TABLE_NAME": {
+      "label": "Azure Billing Export Table"
+    }
+  },
+  "models": [
+    {
+      "name": "azure_billing_block",
+      "connection_constant": "AZURE_BILLING_CONNECTION"
+    }
+  ]
+}
